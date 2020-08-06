@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment-2</title>
+		<style>
+
+			* {
+				box-sizing: border-box;
+			}
+			h1{
+				text-align: center;
+				font-weight: bold;
+				font-size: 180%;
+				margin: 50px;
+			}
+			
+			div{
+				border: 1px solid black;
+				margin: 15px;
+				
+				background-color: gray;
+				padding: 5px,5px,5px,5px;
+			}
+			.sub1{
+				border: 1px solid black;
+				background-color: orange;
+				width:100px;
+				margin-top: 0;
+				text-align: center;
+				float: right;
+				font-weight:bold;
+				padding: 5px;
+				margin-bottom: 10px;
+			}
+			.sub2{
+				border: 1px solid black;
+				background-color: blue;
+				width:100px;
+				margin-top: 0;
+				text-align: center;
+				float: right;
+				font-weight:bold;
+				padding: 5px;
+				margin-bottom: 10px;
+			}
+			.sub3{
+				border: 1px solid black;
+				background-color: green;
+				width:100px;
+				margin-top: 0;
+				text-align: center;
+				float: right;
+				font-weight:bold;
+				padding: 5px;
+				margin-bottom: 10px;
+			}
+			.content1{
+				margin-top: 40px;
+				overflow: auto;
+				padding: 10px;
+			}
+			
+
+			.row{
+				width: 90%;
+			}
+			@media(min-width: 992px){
+				.col-lg-4{
+					float: left;
+					width: 33.33%
+				}
+				.content1{
+					height: 200px;
+				}
+			}
+			
+			@media(min-width:768px ) and (max-width: 991px)
+			{
+				.col-md-6{
+					float: left;
+					width:50%;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				.col-md-12{
+					float: left;
+					width: 100%;
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+			@media(max-width: 767px)
+			{
+				.col-sd-12{
+					float: left;
+					width: 100%;
+				}
+			}
+		</style>
+		<meta charset="utf-8">
+	
+	</head>
+	<body>
+		<h1> Rice Size </h1>
+
+		<section class="col-sd-12 col-md-6 col-lg-4">
+		<div class="div1">
+			<p class="sub1">Long</p>
+			<p class="content1">
+			 Long-grain rice has a length that’s three to five times its width. (Long boi.) One of the most prized long-grain rices is the intensely aromatic basmati, which was traditionally grown in the foothills of the Himalayas. It’s slim, with an elegant curve, and can triple in length when cooked. Aside from basmati, American-grown Carolina Gold and jasmine rice, cultivated primarily in Southeast Asia, also fall into this bucket.
+			</p>
+		</div>
+		</section>
+
+		<section class="col-sd-12 col-md-6 col-lg-4">
+		<div class="div1">
+			<p class="sub2">Short</p>
+			<p class="content1">
+			 Chubby, round, and starchy, the cooked grains glom together in sticky clumps. It’s typically the sort of rice that’s easy to eat with hands or chopsticks because you don’t have to pick it up piece by piece. Japanese short-grain rice, some varieties of sweet (a.k.a. glutinous) rice, often used in Southeast Asian desserts, and the less-sticky Spanish bomba (often the choice for paella), are members of this group.
+			</p>
+		</div>
+		</section>
+		
+		<section class="col-sd-12 col-md-12 col-lg-4">
+		<div class="div1">
+			<p class="sub3">Medium</p>
+			<p class="content1">
+			 Medium-grain rice is shorter and moister than long grain but not quite as starchy as short. Fluffy right after it’s cooked, it tends to clump up as it cools. Medium-grain japonica rice is often the typical “table rice” in China, Korea, and Japan, whereas medium-grain Italian rice, like Arborio, Carnaroli, and Vialone Nano, is used to make risotto: Cooked slowly, they release their starches to create a creamy, luscious dish.
+			</p>
+		</div>
+		</section>
+	</body>
+</html>
