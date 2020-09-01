@@ -1,65 +1,70 @@
-
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>Assignment-3</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Boostrap Starter Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
-<body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">Food, LLC</a>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand">
+              Food, LLC
+            </div>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+             <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li class="visible-xs text-center">
+                <a href="#chicken">Chicken</a>
+                <hr class="visible-xs">
+              </li>
+              <li class="visible-xs text-center">
+                <a href="#beef">Beef</a>
+                <hr class="visible-xs">
+              </li>
+              <li class="visible-xs text-center">
+                <a href="#sushi">Sushi</a>
+              </li>
+            </ul><!-- #nav-list -->
+          </div><!-- .collapse .navbar-collapse -->
+        </div><!-- .container -->
+      </nav><!-- #header-nav -->
+    </header>
 
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-          <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a id="chicken" href="#" class="visible-xs">Chicken</a>
-            </li>
-            <li>
-              <a id="beef" href="#" class="visible-xs">Beef</a>
-            </li>
-            <li>
-              <a id="sushi" href="#" class="visible-xs">Sushi</a>
-            </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div>
-    </nav>
-  </header>
-
-
-  <div id="main-content" class="container">
-    <h1 class="text-center">Our Menu</h1>
-
-    <div class="row">
-      <div id="description" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div id="main-content" class="container">
+      <h1 class="menu-header text-center col-md-12 col-ms-12 col-xs-12">Our Menu</h1>
+      <div id="chicken" class="menu-content col-md-12 col-ms-12 col-xs-12">
         <h3 class="text-center">Chicken</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis, tellus non ultricies laoreet, lorem eros elementum tortor, a porttitor magna quam at ligula. Vestibulum molestie aliquet tincidunt. Morbi tristique odio et lacinia tincidunt. Praesent luctus diam quis faucibus vehicula. Curabitur scelerisque, ante at sollicitudin posuere, erat nibh vehicula enim, at fringilla velit augue id ante. Ut vitae consequat ante. Nulla vestibulum congue lorem. Nullam venenatis, libero vel maximus tincidunt, sem nibh posuere massa, vel blandit diam nulla volutpat ex. Praesent sed dui sed mi commodo sodales. In hac habitasse platea dictumst.
-
-        Aenean ac arcu sit amet arcu laoreet facilisis. Cras maximus pretium metus vel ullamcorper. Proin pharetra neque ut lectus dapibus ornare. Maecenas dictum nunc nec magna malesuada feugiat. Nulla sollicitudin, lectus sed rutrum luctus, purus augue ultrices risus, eu dignissim nibh leo sed arcu. Morbi eros orci, finibus ac fringilla et, scelerisque sed urna. Praesent hendrerit augue ac sollicitudin auctor. Aenean lectus tortor, elementum ut rhoncus vel, eleifend ut ligula. Ut nec justo consequat, ornare est non, aliquet odio. Nullam fermentum mollis porta. Aenean elementum turpis eget metus mollis, ut blandit nisi commodo.
-
-        Duis nunc orci, mattis et vulputate ac, egestas nec quam. Vestibulum ultrices eros et dignissim blandit. Ut ullamcorper nunc quis nibh condimentum consectetur. Suspendisse potenti. Aliquam velit arcu, porta eget augue sed, rutrum dapibus tortor. Curabitur sagittis eleifend nisl, vel gravida enim semper non. Nullam neque lacus, volutpat nec sapien et, convallis tincidunt quam. Nullam efficitur magna nisi, eu porttitor enim auctor ut. Quisque sed cursus ligula. Nulla sit amet est semper, sodales magna non, sollicitudin diam. Praesent elementum est et efficitur auctor. Aliquam condimentum arcu in justo euismod interdum. Morbi volutpat velit id lorem pulvinar, vel bibendum dolor luctus. Cras congue at ligula eget aliquet.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
       </div>
-    </div>
-  </div>
+      <div id="beef" class="menu-content col-md-12 col-ms-12 col-xs-12">
+        <h3 class="text-center">Beef</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+      </div>
+      <div id="sushi" class="menu-content col-md-12 col-ms-12 col-xs-12">
+        <h3 class="text-center">Sushi</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+      </div>
+    </div><!-- End of #main-content -->
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
